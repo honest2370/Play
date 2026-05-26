@@ -1,5 +1,5 @@
-import { usePlayer } from "@/context/PlayerContext";
-import { Menu, Search, Bell, Music, Film } from "@/components/Icons";
+import { usePlayer } from "@/context/PlayerContext.tsx";
+import { Menu, Search, Bell, Music, Film } from "@/components/Icons.tsx";
 
 const PAGE_TITLES: Record<string, string> = {
   home: "FLUX",

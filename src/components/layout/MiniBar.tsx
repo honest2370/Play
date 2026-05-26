@@ -1,6 +1,6 @@
-import { usePlayer } from "@/context/PlayerContext";
-import { Play, Pause, SkipForward, SkipBack, Music } from "@/components/Icons";
-import { fmtBytes } from "@/utils/helpers";
+import { usePlayer } from "@/context/PlayerContext.tsx";
+import { Play, Pause, SkipForward, SkipBack, Music } from "@/components/Icons.tsx";
+import { fmtBytes } from "@/utils/helpers.ts";
 
 export default function MiniBar() {
   const {

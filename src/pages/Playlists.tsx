@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { usePlayer } from "@/context/PlayerContext";
-import { List, Plus, Trash2, Music } from "@/components/Icons";
-import { getGradient } from "@/utils/helpers";
+import { usePlayer } from "@/context/PlayerContext.tsx";
+import { List, Plus, Trash2, Music } from "@/components/Icons.tsx";
+import { getGradient } from "@/utils/helpers.ts";
 
 export default function Playlists() {
   const { playlists, createPlaylist, deletePlaylist } = usePlayer();

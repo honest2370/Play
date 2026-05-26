@@ -1,21 +1,21 @@
 import { useState, useEffect } from "react";
-import { PlayerProvider, usePlayer } from "@/context/PlayerContext";
-import TopBar from "@/components/layout/TopBar";
-import BottomNav from "@/components/layout/BottomNav";
-import Sidebar from "@/components/layout/Sidebar";
-import MiniBar from "@/components/layout/MiniBar";
-import Home from "@/pages/Home";
-import VideoPlayer from "@/pages/VideoPlayer";
-import MusicPlayer from "@/pages/MusicPlayer";
-import VideoLibrary from "@/pages/VideoLibrary";
-import AudioLibrary from "@/pages/AudioLibrary";
-import UploadPage from "@/pages/Upload";
-import Schedule from "@/pages/Schedule";
-import Playlists from "@/pages/Playlists";
-import Equalizer from "@/pages/Equalizer";
-import Recent from "@/pages/Recent";
-import Settings from "@/pages/Settings";
-import Discover from "@/pages/Discover";
+import { PlayerProvider, usePlayer } from "@/context/PlayerContext.tsx";
+import TopBar from "@/components/layout/TopBar.tsx";
+import BottomNav from "@/components/layout/BottomNav.tsx";
+import Sidebar from "@/components/layout/Sidebar.tsx";
+import MiniBar from "@/components/layout/MiniBar.tsx";
+import Home from "@/pages/Home.tsx";
+import VideoPlayer from "@/pages/VideoPlayer.tsx";
+import MusicPlayer from "@/pages/MusicPlayer.tsx";
+import VideoLibrary from "@/pages/VideoLibrary.tsx";
+import AudioLibrary from "@/pages/AudioLibrary.tsx";
+import UploadPage from "@/pages/Upload.tsx";
+import Schedule from "@/pages/Schedule.tsx";
+import Playlists from "@/pages/Playlists.tsx";
+import Equalizer from "@/pages/Equalizer.tsx";
+import Recent from "@/pages/Recent.tsx";
+import Settings from "@/pages/Settings.tsx";
+import Discover from "@/pages/Discover.tsx";
 
 function AppInner() {
   const { currentPage, toastMsg, toastVisible } = usePlayer();

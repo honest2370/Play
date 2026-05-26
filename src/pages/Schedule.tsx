@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { usePlayer } from "@/context/PlayerContext";
-import { Calendar, Trash2, Film, Music } from "@/components/Icons";
+import { usePlayer } from "@/context/PlayerContext.tsx";
+import { Calendar, Trash2, Film, Music } from "@/components/Icons.tsx";
 
 export default function Schedule() {
   const { schedules, addSchedule, removeSchedule } = usePlayer();

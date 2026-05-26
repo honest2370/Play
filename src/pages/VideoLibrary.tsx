@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { usePlayer } from "@/context/PlayerContext";
-import { Film, Upload, Play } from "@/components/Icons";
-import { fmtBytes, fmtTime, getGradient } from "@/utils/helpers";
+import { usePlayer } from "@/context/PlayerContext.tsx";
+import { Film, Upload, Play } from "@/components/Icons.tsx";
+import { fmtBytes, fmtTime, getGradient } from "@/utils/helpers.ts";
 
 type Filter = "all" | "large" | "small";
 

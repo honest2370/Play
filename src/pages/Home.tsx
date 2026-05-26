@@ -1,6 +1,6 @@
-import { usePlayer } from "@/context/PlayerContext";
-import { Film, Music, Upload, Clock, Plus, Play } from "@/components/Icons";
-import { fmtBytes, timeAgo, getGradient } from "@/utils/helpers";
+import { usePlayer } from "@/context/PlayerContext.tsx";
+import { Film, Music, Upload, Clock, Plus, Play } from "@/components/Icons.tsx";
+import { fmtBytes, timeAgo, getGradient } from "@/utils/helpers.ts";
 
 export default function Home() {
   const { videoFiles, audioFiles, recentPlays, goPage, loadVideo, loadAudio, schedules } = usePlayer();

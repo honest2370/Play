@@ -1,10 +1,10 @@
-import { usePlayer, Page } from "@/context/PlayerContext";
+import { usePlayer, Page } from "@/context/PlayerContext.tsx";
 import {
   X, Home, Film, Music, Upload, Calendar, List, Sliders,
   Clock, Settings, Compass, Play, Pause, SkipForward,
   Headphones, LayoutGrid
-} from "@/components/Icons";
-import { fmtBytes } from "@/utils/helpers";
+} from "@/components/Icons.tsx";
+import { fmtBytes } from "@/utils/helpers.ts";
 
 interface SidebarItem {
   page: Page;

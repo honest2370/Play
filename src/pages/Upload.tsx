@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
-import { usePlayer, MediaFile } from "@/context/PlayerContext";
-import { Film, Music, Upload as UploadIcon, X } from "@/components/Icons";
-import { fmtBytes, getGradient } from "@/utils/helpers";
+import { usePlayer, MediaFile } from "@/context/PlayerContext.tsx";
+import { Film, Music, Upload as UploadIcon, X } from "@/components/Icons.tsx";
+import { fmtBytes, getGradient } from "@/utils/helpers.ts";
 
 type Tab = "video" | "audio";
 

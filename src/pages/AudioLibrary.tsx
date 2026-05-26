@@ -1,6 +1,6 @@
-import { usePlayer } from "@/context/PlayerContext";
-import { Music, Upload, Play } from "@/components/Icons";
-import { fmtBytes, fmtTime, getGradient } from "@/utils/helpers";
+import { usePlayer } from "@/context/PlayerContext.tsx";
+import { Music, Upload, Play } from "@/components/Icons.tsx";
+import { fmtBytes, fmtTime, getGradient } from "@/utils/helpers.ts";
 
 export default function AudioLibrary() {
   const { audioFiles, loadAudio, curAudioIdx, isAudioPlaying, audioPositions, goPage } = usePlayer();

@@ -1,8 +1,8 @@
-import { usePlayer } from "@/context/PlayerContext";
+import { usePlayer } from "@/context/PlayerContext.tsx";
 import {
   Clock, Repeat, Play, Bell, Sliders, Moon, Volume2,
   Film, Music, Trash2, Settings as SettingsIcon, Headphones
-} from "@/components/Icons";
+} from "@/components/Icons.tsx";
 
 interface SettingRowProps {
   icon: React.ReactNode;

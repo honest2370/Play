@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { usePlayer } from "@/context/PlayerContext";
-import { Clock, Film, Music, Trash2 } from "@/components/Icons";
-import { fmtBytes, fmtTime, timeAgo, getGradient } from "@/utils/helpers";
+import { usePlayer } from "@/context/PlayerContext.tsx";
+import { Clock, Film, Music, Trash2 } from "@/components/Icons.tsx";
+import { fmtBytes, fmtTime, timeAgo, getGradient } from "@/utils/helpers.ts";
 
 type Filter = "all" | "video" | "audio";
 

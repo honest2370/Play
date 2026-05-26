@@ -1,9 +1,9 @@
-import { usePlayer } from "@/context/PlayerContext";
+import { usePlayer } from "@/context/PlayerContext.tsx";
 import {
   Play, Pause, SkipBack, SkipForward, Shuffle, Repeat,
   Volume2, VolumeX, Heart, Music, Upload
-} from "@/components/Icons";
-import { fmtTime, fmtBytes, getGradient } from "@/utils/helpers";
+} from "@/components/Icons.tsx";
+import { fmtTime, fmtBytes, getGradient } from "@/utils/helpers.ts";
 
 export default function MusicPlayer() {
   const {

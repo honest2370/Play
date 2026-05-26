@@ -1,5 +1,5 @@
-import { usePlayer } from "@/context/PlayerContext";
-import { Sliders } from "@/components/Icons";
+import { usePlayer } from "@/context/PlayerContext.tsx";
+import { Sliders } from "@/components/Icons.tsx";
 
 const EQ_LABELS = ["32Hz", "64Hz", "125Hz", "250Hz", "500Hz", "1kHz", "4kHz", "16kHz"];
 const EQ_PRESETS = ["Flat", "Rock", "Pop", "Jazz", "Bass", "Treble", "Classical", "Custom"];

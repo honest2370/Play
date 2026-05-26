@@ -1,5 +1,5 @@
-import { usePlayer, Page } from "@/context/PlayerContext";
-import { Home, Film, Music, Upload, MoreHorizontal } from "@/components/Icons";
+import { usePlayer, Page } from "@/context/PlayerContext.tsx";
+import { Home, Film, Music, Upload, MoreHorizontal } from "@/components/Icons.tsx";
 
 const NAV_ITEMS: { page: Page; label: string; Icon: React.FC<{ size: number }> }[] = [
   { page: "home", label: "Home", Icon: Home },

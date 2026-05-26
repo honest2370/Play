@@ -1,10 +1,10 @@
 import { useRef, useEffect, useState } from "react";
-import { usePlayer } from "@/context/PlayerContext";
+import { usePlayer } from "@/context/PlayerContext.tsx";
 import {
   Play, Pause, SkipBack, SkipForward, Maximize2, VolumeX, Volume2,
   Upload, Film, ChevronLeft, FastForward, Rewind
-} from "@/components/Icons";
-import { fmtTime, fmtBytes, getGradient } from "@/utils/helpers";
+} from "@/components/Icons.tsx";
+import { fmtTime, fmtBytes, getGradient } from "@/utils/helpers.ts";
 
 export default function VideoPlayer() {
   const {

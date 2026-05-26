@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { usePlayer } from "@/context/PlayerContext";
-import { Compass, Film, Music, Play, Upload } from "@/components/Icons";
-import { fmtBytes, getGradient } from "@/utils/helpers";
+import { usePlayer } from "@/context/PlayerContext.tsx";
+import { Compass, Film, Music, Play, Upload } from "@/components/Icons.tsx";
+import { fmtBytes, getGradient } from "@/utils/helpers.ts";
 
 const CATEGORIES = ["All", "Videos", "Audio", "Liked"];
 
